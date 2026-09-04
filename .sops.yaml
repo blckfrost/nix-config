@@ -1,0 +1,7 @@
+keys:
+  - &zion age1mxgxu4ah7g9xn6mmyajhf0aa0sw04emqg59qkh00frgz5u63hvnqqsermj
+creation_rules:
+  - path_regex: secrets/.*\.yaml$
+    key_groups:
+      - age:
+          - *zion
